@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 li{
     list-style-type: none;
@@ -16,6 +16,7 @@ nav > ul {
   }
   nav{
     background-color: yellow;
+    
   }
   main{
     background-color: #85dbf3;
@@ -30,9 +31,9 @@ nav > ul {
     justify-content: space-between;
   }
   .introduccion{
-    width: 800px;
-    padding: 10px;
-    padding-top: 2px;
+    width: 90%;
+    padding: 8px;
+    padding-top: 10px;
     margin:0 auto;
   }
   .intro2{
@@ -42,5 +43,11 @@ nav > ul {
   .init {
       font-size: 60px;
   }
-  
+  .resumen{
+    font-size: larger;
+  }
+  .asturias{
+    width: 80px;
+    padding:10px;
+  }
   
