@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+li{
+    list-style-type: none;
+    padding:20px;
+}
+nav > ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    margin: 0 .75rem;
+  }
+  nav{
+    background-color: yellow;
+  }
+  main{
+    background-color: #85dbf3;
+  }
+  .intro{
+    width: 25.5em;
+    height: 17em;
+  }
+  
