@@ -33,6 +33,7 @@ nav > ul {
     width: 800px;
     padding: 10px;
     padding-top: 2px;
+    margin:0 auto;
   }
   .intro2{
     width: 40%;
