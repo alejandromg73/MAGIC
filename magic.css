@@ -35,7 +35,7 @@ nav > ul {
     justify-content: space-between;
   }
   .introduccion{
-    width: 90%;
+    width: 92%;
     padding: 8px;
     padding-top: 10px;
     margin:0 auto;
@@ -69,7 +69,22 @@ nav > ul {
   }
   .kart{
     width: 40%;
-    float:right;
-    margin-left: 12px;
+    padding-left: 7%;
+    padding-bottom:7%;
     
+  }
+  .biop, .kart{
+    float:left;
+    margin:0 auto;
+}
+  .comienzo{
+    width: 40%;
+    margin-left: 5%;
+}
+  .video, .comienzo{
+    float:left;
+    margin:0 auto;
+  }
+  .video{
+    width:40%
   }
