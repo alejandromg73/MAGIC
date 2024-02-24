@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
 }
 li{
     list-style-type: none;
@@ -31,7 +32,7 @@ nav > ul {
   }
   a{
     color:black;
-    font-size: 20px;
+    font-size: 25px;
     justify-content: space-between;
   }
   .introduccion{
@@ -49,7 +50,7 @@ nav > ul {
       font-size: 60px;
   }
   .resumen{
-    font-size: larger;
+    font-size: 25px;
   }
   .asturias{
     width: 80px;
@@ -59,7 +60,7 @@ nav > ul {
     text-align: center;
   }
   .biosect{
-    font-size: 18px;
+    font-size: 25px;
     margin:5%;
     width: 90%;
     overflow:hidden;
@@ -70,7 +71,6 @@ nav > ul {
   .kart{
     width: 40%;
     padding-left: 7%;
-    padding-bottom:7%;
     
   }
   .biop, .kart{
@@ -78,8 +78,9 @@ nav > ul {
     margin:0 auto;
 }
   .comienzo{
-    width: 40%;
+    width: 30%;
     margin-left: 5%;
+    font-size: 25px;
 }
   .video, .comienzo{
     float:left;
@@ -89,4 +90,7 @@ nav > ul {
   .video{
     width:30%;
     padding-top: 0;
+  }
+  .resumen, .comienzo{
+    margin:5%
   }
