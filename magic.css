@@ -84,7 +84,9 @@ nav > ul {
   .video, .comienzo{
     float:left;
     margin:0 auto;
+    
   }
   .video{
-    width:40%
+    width:30%;
+    padding-top: 0;
   }
