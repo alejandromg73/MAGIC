@@ -19,6 +19,7 @@ nav > ul {
     width: 95%;
     margin-left: 2%;
     margin-right: 2%;
+    overflow: auto;
     
   }
   main{
@@ -56,4 +57,19 @@ nav > ul {
   }
   .magicAlonso{
     text-align: center;
+  }
+  .biosect{
+    font-size: 18px;
+    margin:5%;
+    width: 90%;
+    overflow:hidden;
+  }
+  .biop{
+    width: 40%;
+  }
+  .kart{
+    width: 40%;
+    float:right;
+    margin-left: 12px;
+    
   }
