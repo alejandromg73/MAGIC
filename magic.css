@@ -8,7 +8,7 @@ li{
 }
 nav > ul {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
   }
   
   li {
@@ -16,6 +16,9 @@ nav > ul {
   }
   nav{
     background-color: yellow;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
     
   }
   main{
@@ -51,4 +54,6 @@ nav > ul {
     width: 80px;
     padding:10px;
   }
-  
+  .magicAlonso{
+    text-align: center;
+  }
