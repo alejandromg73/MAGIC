@@ -88,8 +88,8 @@ nav > ul {
     margin:0 auto;
     
   }
-  .video{
-    width:30%;
+  video{
+    width:50%;
 
   }
   .resumen, .comienzo{
@@ -113,6 +113,7 @@ nav > ul {
     float:left;
     padding-right: 45px;
   }
+
 }
 
 
