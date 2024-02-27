@@ -1,3 +1,14 @@
+
+@font-face {
+  font-family: "Mystery Quest";
+  src: url("mystery-quest.woff2");
+}
+
+h4 {
+  font-family: "Mystery Quest", cursive;
+  font-size: 150%;
+}
+
 .button:hover{
   background-color:rgb(250, 250, 46)
 }
@@ -8,6 +19,7 @@
   margin:0 auto;
   float:left;
 }
+
 @media screen and (min-width: 801px)  { /*Resolución para pantallas mayores de 800 pixeles*/
   h1{
     text-align: center;
@@ -116,9 +128,25 @@ nav > ul {
     float:left;
     padding-right: 45px;
   }
-
-}
-
+  .inicios{
+    width: 800px;
+    padding:0.2px;
+    margin:5px;
+  }
+  .textflavio{
+    width: 45%;
+  }
+  .flavio{
+    width: 40%;
+  }
+ .flavio, .textflavio{
+  float:left;
+  margin:5px;
+ }
+ .uno, .dos{
+  justify-content: center;
+ }
+ }
 
 
 
