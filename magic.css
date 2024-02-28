@@ -4,6 +4,9 @@
   src: url("mystery-quest.woff2");
 }
 
+h1{
+  text-align: center;
+}
 h4 {
   font-family: "Mystery Quest", cursive;
   font-size: 150%;
@@ -126,27 +129,22 @@ nav > ul {
     float:left;
     padding-right: 45px;
   }
-  .inicios{
-    width: 800px;
-    padding:0.2px;
-    margin:5px;
-  }
-  .textflavio{
-    width: 45%;
-  }
-  .flavio{
-    width: 40%;
-  }
- .flavio, .textflavio{
-  float:left;
-  margin:5px;
- }
- .uno, .dos{
-  justify-content: center;
- }
  .casco{
   text-align: center;
  }
+ .h2{
+  text-align: center;
+ }
+ .inicios{
+  width: 800px;
+ }
+ .victoria{
+  width: 45%;
+ }
+ .flavio{
+  width: 45%;
+ }
+ 
  }
 
 
@@ -265,6 +263,9 @@ footer{
 .casco{
   text-align: center;
  }
+ .h2{
+  text-align: center;
+ }
 }
 
 
@@ -376,4 +377,7 @@ footer{
 .casco{
   text-align: center;
 }
+.h2{
+  text-align: center;
+ }
 }
