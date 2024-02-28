@@ -16,8 +16,7 @@ h4 {
   background-color: white;
   padding:0;
   color:blue;
-  margin:0 auto;
-  float:left;
+  
 }
 
 @media screen and (min-width: 801px)  { /*Resolución para pantallas mayores de 800 pixeles*/
