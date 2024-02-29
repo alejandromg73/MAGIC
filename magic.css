@@ -136,15 +136,20 @@ nav > ul {
   text-align: center;
  }
  .inicios{
-  width: 800px;
+  width: 95%;
  }
  .victoria{
-  width: 45%;
+  width: 30%;
  }
  .flavio{
-  width: 45%;
+  width: 30%;
  }
+ .articulo{
+  width: 300px;
+  height: 150px;
  }
+}
+
 
 
 
