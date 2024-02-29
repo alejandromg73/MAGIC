@@ -25,6 +25,19 @@ h4 {
   list-style-type:circle;
   font-size: 30px;
 }
+td{
+  padding:10px;
+  text-align: center;
+}
+table{
+  border:2px black solid;
+}
+td, tr{
+  border: 2px black solid;
+}
+th{
+  background-color:yellow;
+}
 
 @media screen and (min-width: 801px)  { /*Resolución para pantallas mayores de 800 pixeles*/
   h1{
@@ -159,7 +172,15 @@ nav > ul {
   font-size: 30px;
   margin: 20px;
  }
+ .treintaytres{
+  font-size: 60px;
  }
+ table{
+  margin-left:20px;
+  margin-right:20px;
+  width: 60%;
+}
+}
 
 
 
@@ -283,9 +304,16 @@ footer{
   text-align: center;
  }
  .competiciones{
-  font-size: 30px;
+  font-size: 25px;
   margin: 20px;
  }
+ .treintaytres{
+  font-size: 50px;
+ }
+ table{
+  margin-left:28%;
+  margin-right: 28%;
+}
 }
 
 
@@ -401,7 +429,13 @@ footer{
   text-align: center;
  }
  .competiciones{
-  font-size: 30px;
+  font-size: 20px;
   margin: 20px;
+ }
+ .treintaytres{
+  font-size: 50px;
+ }
+ .coche{
+  visibility: hidden;
  }
 }
