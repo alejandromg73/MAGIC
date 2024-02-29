@@ -21,6 +21,10 @@ h4 {
   color:blue;
   
 }
+.m{
+  list-style-type:circle;
+  font-size: 30px;
+}
 
 @media screen and (min-width: 801px)  { /*Resolución para pantallas mayores de 800 pixeles*/
   h1{
@@ -28,8 +32,8 @@ h4 {
     font-size: 40px;
   }
 li{
-    list-style-type: none;
     padding:20px;
+    list-style-type: none;
 }
 nav > ul {
     display: flex;
@@ -147,6 +151,13 @@ nav > ul {
  .kart{
   width: 300px;
   height: 170px;
+ }
+ .h2{
+  font-size: 50px;
+ }
+ .competiciones{
+  font-size: 30px;
+  margin: 20px;
  }
  }
 
@@ -271,6 +282,10 @@ footer{
  .h2{
   text-align: center;
  }
+ .competiciones{
+  font-size: 30px;
+  margin: 20px;
+ }
 }
 
 
@@ -384,5 +399,9 @@ footer{
 }
 .h2{
   text-align: center;
+ }
+ .competiciones{
+  font-size: 30px;
+  margin: 20px;
  }
 }
