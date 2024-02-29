@@ -13,7 +13,8 @@ h4 {
 }
 
 .button:hover{
-  background-color:rgb(250, 250, 46)
+  background-color:rgb(250, 250, 46);
+  
 }
 .button{
   background-color: white;
@@ -30,10 +31,11 @@ td{
   text-align: center;
 }
 table{
-  border:2px black solid;
+  border:2px rgb(246, 0, 0) solid;
+  align-items: center;
 }
 td, tr{
-  border: 2px black solid;
+  border: 2px rgb(255, 6, 6) solid;
 }
 th{
   background-color:yellow;
@@ -58,6 +60,9 @@ nav > ul {
   }
   nav{
     background-color: yellow;
+    border-style:solid;
+    border-color: red;
+    border-width: 12px;
     width: 95%;
     margin-left: 2%;
     margin-right: 2%;
