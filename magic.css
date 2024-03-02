@@ -33,6 +33,8 @@ td{
 table{
   border:2px rgb(246, 0, 0) solid;
   align-items: center;
+  width: 60%;
+  margin:0 auto;
 }
 td, tr{
   border: 2px rgb(255, 6, 6) solid;
@@ -180,11 +182,6 @@ nav > ul {
  .treintaytres{
   font-size: 60px;
  }
- table{
-  margin-left:20px;
-  margin-right:20px;
-  width: 60%;
-}
 }
 
 
@@ -315,10 +312,6 @@ footer{
  .treintaytres{
   font-size: 50px;
  }
- table{
-  margin-left:28%;
-  margin-right: 28%;
-}
 }
 
 
@@ -439,6 +432,9 @@ footer{
  }
  .treintaytres{
   font-size: 50px;
+ }
+ .quitar{
+  display: none;
  }
  
 }
