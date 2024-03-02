@@ -421,7 +421,7 @@ nav {
 
 @media screen and (max-width: 400px) {
 
-  /*Resolución para pantallas mayores de 800 pixeles*/
+  /*Resolución para pantallas menores de 400 pixeles*/
   h1 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -585,5 +585,4 @@ nav {
   .titular{
     font-size: 25px;
   }
-
 }
