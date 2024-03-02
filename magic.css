@@ -1,440 +1,585 @@
-
 @font-face {
   font-family: "Mystery Quest";
   src: url("mystery-quest.woff2");
 }
 
-h1{
+h1 {
   text-align: center;
 }
+
 h4 {
   font-family: "Mystery Quest", cursive;
   font-size: 150%;
 }
 
-.button:hover{
-  background-color:rgb(250, 250, 46);
-  
-}
-.button{
-  background-color: white;
-  padding:0;
-  color:blue;
-  
-}
-.m{
-  list-style-type:circle;
-  font-size: 30px;
-}
-td{
-  padding:10px;
-  text-align: center;
-}
-table{
-  border:2px rgb(246, 0, 0) solid;
-  align-items: center;
-  width: 60%;
-  margin:0 auto;
-}
-td, tr{
-  border: 2px rgb(255, 6, 6) solid;
-}
-th{
-  background-color:yellow;
+.button:hover {
+  background-color: rgb(250, 250, 46);
+
 }
 
-@media screen and (min-width: 801px)  { /*Resolución para pantallas mayores de 800 pixeles*/
-  h1{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.button {
+  background-color: white;
+  padding: 0;
+  color: blue;
+
+}
+
+.m {
+  list-style-type: circle;
+  font-size: 30px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  border: 2px rgb(246, 0, 0) solid;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+td,
+tr {
+  border: 2px rgb(255, 6, 6) solid;
+}
+
+th {
+  background-color: yellow;
+}
+
+.clip:hover {
+  background-color: gold;
+}
+
+@media screen and (min-width: 801px) {
+
+  /*Resolución para pantallas mayores de 800 pixeles*/
+  h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
   }
-li{
-    padding:20px;
+
+  li {
+    padding: 20px;
     list-style-type: none;
-}
-nav > ul {
-    display: flex;
-    justify-content:space-around;
   }
-  
+
+  nav>ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
   li {
     margin: 0 .75rem;
   }
-  nav{
+
+  nav {
     background-color: yellow;
-    border-style:solid;
+    border-style: solid;
     border-color: red;
     border-width: 7px;
     width: 95%;
     margin-left: 2%;
     margin-right: 2%;
     overflow: auto;
-    
+
   }
-  main{
+
+  main {
     background-color: #85dbf3;
   }
-  .intro{
+
+  .intro {
     width: 47%;
     height: 90%;
   }
-  a{
-    color:black;
+
+  a {
+    color: black;
     font-size: 25px;
     justify-content: space-between;
   }
-  .introduccion{
+
+  .introduccion {
     width: 92%;
     padding: 8px;
     padding-top: 10px;
-    margin:0 auto;
+    margin: 0 auto;
   }
-  .intro2{
+
+  .intro2 {
     width: 47%;
     padding-left: 1%;
-    
+
   }
+
   .init {
-      font-size: 60px;
+    font-size: 60px;
   }
-  .resumen{
+
+  .resumen {
     font-size: 25px;
   }
-  .asturias{
+
+  .asturias {
     width: 80px;
-    padding:10px;
+    padding: 10px;
   }
-  .magicAlonso{
+
+  .magicAlonso {
     text-align: center;
   }
-  .biosect{
+
+  .biosect {
     font-size: 25px;
-    margin:5%;
+    margin: 5%;
     width: 90%;
-    overflow:hidden;
+    overflow: hidden;
   }
-  .biop{
+
+  .biop {
     width: 40%;
   }
-  .kart{
+
+  .kart {
     width: 40%;
     padding-left: 7%;
-    
+
   }
-  .biop, .kart{
-    float:left;
-    margin:0 auto;
-}
-  .comienzo{
+
+  .biop,
+  .kart {
+    float: left;
+    margin: 0 auto;
+  }
+
+  .comienzo {
     width: 30%;
     margin-left: 5%;
     font-size: 25px;
-}
-  .video, .comienzo{
-    float:left;
-    margin:0 auto;
-    
   }
-  video{
-    width:50%;
+
+  .video,
+  .comienzo {
+    float: left;
+    margin: 0 auto;
 
   }
-  .resumen, .comienzo{
-    margin:5%
+
+  video {
+    width: 50%;
+
   }
-  h4{
+
+  .resumen,
+  .comienzo {
+    margin: 5%
+  }
+
+  h4 {
     font-size: 30px;
   }
-  footer{
-    background-color:#85dbf3;
+
+  footer {
+    background-color: #85dbf3;
     padding: 5px;
   }
-  .homen{
-    float:left;
+
+  .homen {
+    float: left;
     padding-right: 45px;
   }
- .casco{
-  text-align: center;
- }
- .h2{
-  text-align: center;
- }
- .inicios{
-  width: 95%;
- }
- .victoria{
-  width: 30%;
- }
- .flavio{
-  width: 30%;
- }
- .kart{
-  width: 300px;
-  height: 170px;
- }
- .h2{
-  font-size: 50px;
- }
- .competiciones{
-  font-size: 30px;
-  margin: 20px;
- }
- .treintaytres{
-  font-size: 60px;
- }
+
+  .casco {
+    text-align: center;
+  }
+
+  .h2 {
+    text-align: center;
+  }
+
+  .inicios {
+    width: 95%;
+  }
+
+  .victoria {
+    width: 30%;
+  }
+
+  .flavio {
+    width: 30%;
+  }
+
+  .kart {
+    width: 300px;
+    height: 170px;
+  }
+
+  .h2 {
+    font-size: 50px;
+  }
+
+  .competiciones {
+    font-size: 30px;
+    margin: 20px;
+  }
+
+  .treintaytres {
+    font-size: 60px;
+  }
+
+  .highlights,
+  .celebraciones {
+    font-size: 30px;
+    margin-left: 8px;
+  }
+
+  .clip {
+    margin: 30%;
+  }
 }
 
 
 
 
 
-@media (min-width: 401px) and (max-width: 800px) {/*Resolucion para pantallas más pequeñas de 800 pixeles pero más grandes de 400pixeles*/
-  h1{
+@media (min-width: 401px) and (max-width: 800px) {
+
+  /*Resolucion para pantallas más pequeñas de 800 pixeles pero más grandes de 400pixeles*/
+  h1 {
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
   }
-  li{
+
+  li {
     list-style-type: none;
-    padding:20px;
-}
-nav > ul {
-  display: flex;
-  justify-content:space-around;
-}
-li {
-  margin: 0 .75rem;
-}
-nav{
-  background-color: yellow;
-  width: 95%;
-  margin-left: 2%;
-  margin-right: 2%;
-  overflow: auto;
-  
-}
-main{
-  background-color: #85dbf3;
-}
-.intro{
-  width: 47%;
-  height: 90%;
-  display: none;
-}
-a{
-  color:black;
-  font-size: 25px;
-  justify-content: space-between;
-}
-.introduccion{
-  width: 92%;
-  padding: 8px;
-  padding-top: 10px;
-  margin:0 auto;
-}
-.intro2{
-  width: 60%;
-  padding-left: 1%;
-  display: flex;
-  align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-.init {
+    padding: 20px;
+  }
+
+  nav>ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li {
+    margin: 0 .75rem;
+  }
+
+  nav {
+    background-color: yellow;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow: auto;
+
+  }
+
+  main {
+    background-color: #85dbf3;
+  }
+
+  .intro {
+    width: 47%;
+    height: 90%;
+    display: none;
+  }
+
+  a {
+    color: black;
+    font-size: 25px;
+    justify-content: space-between;
+  }
+
+  .introduccion {
+    width: 92%;
+    padding: 8px;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+
+  .intro2 {
+    width: 60%;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .init {
     font-size: 60px;
-}
-.resumen{
-  font-size: 25px;
-}
-.asturias{
-  display:none;
-}
-.magicAlonso{
-  text-align: center;
-}
-.biosect{
-  font-size: 25px;
-  margin:5%;
-  width: 90%;
-  overflow:hidden;
-}
-.biop{
-  width: 80%;
-}
-.kart{
-  width: 60%;
-  padding-left: 16%;
-  padding-top: 10px;
-  
-}
-.biop, .kart{
-  margin:0 auto;
-}
-.comienzo{
-  width:50%;
-  padding-left: 20%;
-  font-size: 25px;
-}
-.Ataque{
-  margin-left:16%;
-}
-.video{
-  width:70%;
-  padding-top:0;
-}
-.resumen, .comienzo{
-  margin:5%
-}
-h4{
-  font-size: 31px;
-}
-footer{
-  background-color:#85dbf3;
-  padding: 5px;
-}
-.homen{
-  float:left;
-  padding-right: 45px;
-}
-.video, .Ataque{
-  float:left;
-}
-.casco{
-  text-align: center;
- }
- .h2{
-  text-align: center;
- }
- .competiciones{
-  font-size: 25px;
-  margin: 20px;
- }
- .treintaytres{
-  font-size: 50px;
- }
-}
+  }
 
+  .resumen {
+    font-size: 25px;
+  }
 
+  .asturias {
+    display: none;
+  }
 
-@media screen and (max-width: 400px)  { /*Resolución para pantallas mayores de 800 pixeles*/
-  h1{
+  .magicAlonso {
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .biosect {
+    font-size: 25px;
+    margin: 5%;
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .biop {
+    width: 80%;
+  }
+
+  .kart {
+    width: 60%;
+    padding-left: 16%;
+    padding-top: 10px;
+
+  }
+
+  .biop,
+  .kart {
+    margin: 0 auto;
+  }
+
+  .comienzo {
+    width: 50%;
+    padding-left: 20%;
+    font-size: 25px;
+  }
+
+  .Ataque {
+    margin-left: 16%;
+  }
+
+  .video {
+    width: 70%;
+    padding-top: 0;
+  }
+
+  .resumen,
+  .comienzo {
+    margin: 5%
+  }
+
+  h4 {
+    font-size: 31px;
+  }
+
+  footer {
+    background-color: #85dbf3;
+    padding: 5px;
+  }
+
+  .homen {
+    float: left;
+    padding-right: 45px;
+  }
+
+  .video,
+  .Ataque {
+    float: left;
+  }
+
+  .casco {
+    text-align: center;
+  }
+
+  .h2 {
+    text-align: center;
+  }
+
+  .competiciones {
+    font-size: 25px;
+    margin: 20px;
+  }
+
+  .treintaytres {
+    font-size: 50px;
+  }
+
+  .highlights,
+  .celebraciones {
+    font-size: 20px;
+    margin-left: 8px;
+  }
+
+  .clip {
+    margin: 22%;
+  }
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+  /*Resolución para pantallas mayores de 800 pixeles*/
+  h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
   }
-  li{
+
+  li {
     list-style-type: none;
-    padding:20px;
-}
-li {
-  margin: 0 .75rem;
-}
-nav{
-  background-color: yellow;
-  width: 95%;
-  margin-left: 2%;
-  margin-right: 2%;
-  overflow: auto;
-  
-}
-main{
-  background-color: #85dbf3;
-}
-.intro{
-  width: 47%;
-  height: 90%;
-  display: none;
-}
-a{
-  color:black;
-  font-size: 25px;
-  justify-content: space-between;
-}
-.introduccion{
-  width: 92%;
-  padding: 8px;
-  padding-top: 10px;
-  margin:0 auto;
-}
-.intro2{
-  width: 60%;
-  padding-left: 1%;
-  display: flex;
-  align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-.init {
+    padding: 20px;
+  }
+
+  li {
+    margin: 0 .75rem;
+  }
+
+  nav {
+    background-color: yellow;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow: auto;
+
+  }
+
+  main {
+    background-color: #85dbf3;
+  }
+
+  .intro {
+    width: 47%;
+    height: 90%;
+    display: none;
+  }
+
+  a {
+    color: black;
+    font-size: 25px;
+    justify-content: space-between;
+  }
+
+  .introduccion {
+    width: 92%;
+    padding: 8px;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+
+  .intro2 {
+    width: 60%;
+    padding-left: 1%;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .init {
     font-size: 60px;
-}
-.resumen{
-  font-size: 25px;
-}
-.asturias{
-  display:none;
-}
-.magicAlonso{
-  text-align: center;
-}
-.biosect{
-  font-size: 25px;
-  margin:5%;
-  width: 90%;
-  overflow:hidden;
-}
-.biop{
-  width: 80%;
-}
-.kart{
-  width: 60%;
-  padding-left: 16%;
-  padding-top: 10px;
-  
-}
-.biop, .kart{
-  margin:0 auto;
-}
-.comienzo{
-  width:50%;
-  padding-left: 20%;
-  font-size: 25px;
-}
-.Ataque{
-  margin-left:16%;
-}
-video{
-  display: none;
-}
-.resumen, .comienzo{
-  margin:5%
-}
-h4{
-  font-size: 30px;
-  text-align: center;;
-}
-footer{
-  background-color:#85dbf3;
-  padding: 5px;
-}
-.homen{
-  text-align: center;
-  
-}
-.casco{
-  text-align: center;
-}
-.h2{
-  text-align: center;
- }
- .competiciones{
-  font-size: 20px;
-  margin: 20px;
- }
- .treintaytres{
-  font-size: 50px;
- }
- .quitar{
-  display: none;
- }
- 
+  }
+
+  .resumen {
+    font-size: 25px;
+  }
+
+  .asturias {
+    display: none;
+  }
+
+  .magicAlonso {
+    text-align: center;
+  }
+
+  .biosect {
+    font-size: 25px;
+    margin: 5%;
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .biop {
+    width: 80%;
+  }
+
+  .kart {
+    width: 60%;
+    padding-left: 16%;
+    padding-top: 10px;
+
+  }
+
+  .biop,
+  .kart {
+    margin: 0 auto;
+  }
+
+  .comienzo {
+    width: 50%;
+    padding-left: 20%;
+    font-size: 25px;
+  }
+
+  .Ataque {
+    margin-left: 16%;
+  }
+
+  video {
+    display: none;
+  }
+
+  .resumen,
+  .comienzo {
+    margin: 5%
+  }
+
+  h4 {
+    font-size: 30px;
+    text-align: center;
+    ;
+  }
+
+  footer {
+    background-color: #85dbf3;
+    padding: 5px;
+  }
+
+  .homen {
+    text-align: center;
+
+  }
+
+  .casco {
+    text-align: center;
+  }
+
+  .h2 {
+    text-align: center;
+  }
+
+  .competiciones {
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .treintaytres {
+    font-size: 50px;
+  }
+
+  .quitar {
+    display: none;
+  }
+
+  .highlights,
+  .celebraciones {
+    font-size: 18px;
+    margin-left: 8px;
+  }
+
+  .clip {
+    margin: 0 auto;
+  }
+
 }
