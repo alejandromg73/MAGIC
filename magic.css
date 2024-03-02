@@ -80,7 +80,7 @@ th {
     background-color: yellow;
     border-style: solid;
     border-color: red;
-    border-width: 7px;
+    border-width: 10px;
     width: 95%;
     margin-left: 2%;
     margin-right: 2%;
@@ -271,6 +271,11 @@ th {
 
   nav {
     background-color: yellow;
+
+    width: 95%;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
     width: 95%;
     margin-left: 2%;
     margin-right: 2%;
