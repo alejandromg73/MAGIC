@@ -28,7 +28,8 @@ h4 {
   list-style-type: circle;
   font-size: 30px;
 }
-.j{
+
+.j {
   padding-left: 17px;
 }
 
@@ -56,19 +57,22 @@ th {
 .clip:hover {
   background-color: gold;
 }
+
 nav {
   background-color: yellow;
   width: 95%;
-  border:6px red solid;
+  border: 6px red solid;
   margin-left: 2%;
   margin-right: 2%;
   overflow: auto;
 
 }
-.highlights:hover{
+
+.highlights:hover {
   background-color: gold;
 }
-.celebraciones:hover{
+
+.celebraciones:hover {
   background-color: gold;
 }
 
@@ -155,7 +159,8 @@ nav {
     padding-left: 7%;
 
   }
-  .titular{
+
+  .titular {
     font-size: 36px;
   }
 
@@ -247,7 +252,7 @@ nav {
   }
 
   .clip {
-    margin:20%
+    margin: 20%
   }
 }
 
@@ -415,7 +420,8 @@ nav {
   .clip {
     margin: 22%;
   }
-  .titular{
+
+  .titular {
     font-size: 30px;
   }
 }
@@ -585,7 +591,8 @@ nav {
   .clip {
     margin: 0 auto;
   }
-  .titular{
+
+  .titular {
     font-size: 25px;
   }
 }
