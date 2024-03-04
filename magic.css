@@ -2,7 +2,10 @@
   font-family: "Mystery Quest";
   src: url("mystery-quest.woff2");
 }
-
+.galeria{
+  float:left;
+  background-color: #85dbf3;
+}
 h1 {
   text-align: center;
 }
@@ -254,6 +257,15 @@ nav {
   .clip {
     margin: 20%
   }
+  .p1{
+    font-size: 25px;
+    margin-left: 8px;
+  }
+  .pg{
+    font-size: 50px;
+    margin-left:8px;
+    text-align: center;
+  }
 }
 
 
@@ -423,6 +435,15 @@ nav {
 
   .titular {
     font-size: 30px;
+  }
+  .p1{
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .pg{
+    font-size: 38px;
+    margin-left:8px;
+    text-align: center;
   }
 }
 
@@ -595,4 +616,14 @@ nav {
   .titular {
     font-size: 25px;
   }
+  .p1{
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .pg{
+    font-size: 30px;
+    margin-left:8px;
+    text-align: center;
+  }
+  
 }
